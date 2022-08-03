@@ -8,6 +8,7 @@ function Register( { setUserName } ) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [errorText, setError] = useState('')
+  // eslint-disable-next-line
   const [userTable, setUserTable] = useContext(UserContext)
   const [passwordConfirm, setPasswordConfirm] =useState('')
   const navigate = useNavigate();

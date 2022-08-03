@@ -27,6 +27,7 @@ function AdminPanel ({...props}) {
             }
         };
         fetchData();
+        // eslint-disable-next-line
     }, [] ); 
 
     const onToggleCheck = (id) => {
